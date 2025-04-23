@@ -1,0 +1,61 @@
+
+html{
+    
+    background: linear-gradient(rgb(255, 255, 255), rgb(215, 215, 215));
+    font-family: 'Arial', sans-serif;
+}
+
+body{
+   height:100%;
+    margin:0;
+}
+
+header{
+    background-color:#eb7a34;
+    width:100%;
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+img{
+    width:500px;
+}
+
+.title{
+   text-align: center;
+  
+   margin-top: 50px;
+}
+
+.intro{
+    font-size: 1.5rem;
+    opacity: 70%;
+    margin-bottom: 70px;
+    padding-left:20%;
+    padding-right: 20%;
+}
+.container{
+    margin:20px;
+}
+
+.entry {
+    display: flex;
+    flex-direction: column;
+    padding-left:10%;
+    padding-right: 10%;
+    margin-bottom:70px;
+}
+
+.entry img {
+    align-self: center;
+    margin-top: 30px;
+    margin-bottom:40px;
+}
+
+
+.rank{
+    font-size: 2.5rem;
+    color:rgb(255, 93, 93);
+}
