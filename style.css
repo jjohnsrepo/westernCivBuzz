@@ -1,7 +1,6 @@
 
 html{
     
-    background: linear-gradient(rgb(255, 255, 255), rgb(215, 215, 215));
     font-family: 'Arial', sans-serif;
 }
 
@@ -11,8 +10,9 @@ body{
 }
 
 header{
-    background-color:#eb7a34;
+    background-color:black;
     width:100%;
+    color:#eb7a34;
     justify-content: center;
     display:flex;
     flex-direction: column;
@@ -25,13 +25,13 @@ img{
 
 .title{
    text-align: center;
-  
    margin-top: 50px;
+   margin-bottom: 90px;
 }
 
 .intro{
     font-size: 1.5rem;
-    opacity: 70%;
+    
     margin-bottom: 70px;
     padding-left:20%;
     padding-right: 20%;
@@ -46,6 +46,10 @@ img{
     padding-left:10%;
     padding-right: 10%;
     margin-bottom:70px;
+}
+
+.entry p{
+    font-size: 1.5rem;
 }
 
 .entry img {
